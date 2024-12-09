@@ -64,8 +64,11 @@ public class PolymorphismDemo
         Animal myDog = new Dog();
         Animal myCat = new Cat();
         Animal mySnake = new Snake();
-        Animal myTiger = new Dinosaur ();
+        Animal myDinosaur = new Dinosaur ();
 
-        myDog.makeSound();       // Outputs: Dog: Woof! Woof!
-        myCat.makeSound();       // Outputs: Cat: Meow! Meow!
-        mySnake.makeSound();     // Outputs: Snake: Hiss! Hiss
+        myDog.makeSound();       
+        myCat.makeSound();       
+        mySnake.makeSound();     
+        myDinosaur.makeSound();      
+    }
+}
